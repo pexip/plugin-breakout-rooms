@@ -1,0 +1,16 @@
+{
+  "id": "breakout-rooms-plugin-1.0",
+  "name": "breakout-rooms",
+  "description": "Create and move participants to breakout rooms",
+  "version": 1.0,
+  "srcURL": "breakout-rooms.plugin.js",
+  "allowUnload": false,
+  "platforms": ["web", "electron", "ios", "android"],
+  "participantRoles": ["chair"],
+  "menuItems": {
+    "participants": [{
+      "icon": "assets/images/grid.svg#grid",
+      "action": "breakoutRoom"
+    }]
+  }
+}

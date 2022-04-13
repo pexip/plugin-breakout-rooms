@@ -1,0 +1,7 @@
+{
+  "plugins": [{
+      "id": "breakout-rooms-plugin-1.0",
+      "srcURL": "plugins/breakout-rooms/breakout-rooms.plugin.package.json",
+      "enabled": true
+  }]
+}
